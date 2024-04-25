@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Suhu</title>
+</head>
+<body>
+    <main>
+    <header class="main-title">
+        <h1>Temperature Converter</h1>
+    
+
+    <section class="main-section">
+        <p>Masukkan  Suhu Derajat Celcius (&deg;C)...</p>
+    
+
+    <section class="section-celcius">
+        <header>
+            <h3>Celcius (&deg;C)</h3>
+        </header>
+
+        <article>
+            <textarea rows="1" id="c-to-f-input" required></textarea>
+            <div class="container-button">
+                <button id="button-convert" type="submit" onclick="convert()">Convert</button>
+                <button id="button-reset">Reset</button>
+                <button id="button-reverse" onclick="reverse();">Reverse</button>
+            </div>
+        </article>
+    </section>
+
+    <section class="section-fahrenheit">
+        <header>
+            <h3>Fahrenheit (&deg;F)</h3>
+        </header>
+
+        <article>
+            <textarea rows="1"></textarea>
+        </article>
+    </section>
+
+    <section class="section-result">
+        <header>
+            <h3>Cara kalkulasi</h3>
+        </header>
+
+        <article>
+            <textarea rows="1"></textarea>
+        </article>
+    </section>
+
+    <section class="section-explanation">
+        <header>
+            <h3>Cara Konversi dari (&deg;C) Ke (&deg;F)</h3>
+        </header>
+<hr>
+        <article>
+           <h1 class="formula-s">S<sub>(&deg;F)</sub></h1>
+           <h1 class="formula-s">suhu S dalam derajat Fahrenheit (&deg;F) sama dengan suhu S dalam derajat Celcius (&deg;C) kali 9/5 tambah 32.</h1>
+           atau
+           <h1 class="formula-s"> S<sub>(&deg;F) = S<sub>(&deg;C) x 1.8 + 32</sub></h1></sub>
+        </article>
+    </section>
+</section>
+</section>
+</main>
+<script src="scriptsuhu.js"></script>
+</body>
+</html>
